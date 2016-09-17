@@ -1,0 +1,261 @@
+@font-face{
+
+    font-family: Montserrat-Light;
+    src:url('fonts/Montserrat-Light.otf');
+}
+
+@font-face{
+
+    font-family: Montserrat-Regular;
+    src:url('fonts/Montserrat-Regular.otf');
+}
+@font-face{
+
+    font-family: Montserrat-Bold;
+    src:url('fonts/Montserrat-Bold.otf');
+}
+body{
+    font-family: Montserrat-Regular;
+    text-transform: capitalize;
+    letter-spacing: .3px
+}
+.header-top{
+    font-weight: bold
+}
+.header-top .fa{
+    margin-right: 5px;
+}
+.header-top .call li:last-child .fa{
+    margin: 0px 5px 0 5px;
+    float: left
+}
+.header-bottom .shoping{
+    float: right;
+}
+.header-top .user{
+    float: left;
+}
+
+.header-top .call{
+    float: right;
+}
+.header-bottom .shoping .fa{
+    right: 40px;
+    margin-right: 10px;
+}
+.navbar-right {
+    float: left!important;
+}
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.menu .navbar-default .navbar-nav > li > a{
+    border-right: 1px solid #efeaea;
+    font-family: Montserrat-Bold;
+    font-size: 15px;
+}
+.footer-top .title{
+    font-size: 19px;
+}
+.menu .nav > li > a{
+    padding: 15px 17px
+}
+.mega-menu .box{
+    left: 113px;
+}
+.menu_title .fa{
+    float: right;
+}
+.mega-menu .box .mega-cont{
+    left: 224px;
+}
+.mega-menu .box .mega-cont .list-inline li a:before{
+    margin-right: 10px;
+}
+.mega-menu .box > .main > li >a .fa{
+    float: right;
+}
+.mobile_menu i.glyphicon.glyphicon-plus{
+    float: right
+}
+.mobile_menu .panel-title{
+    text-align: left;
+    font-family: Montserrat-Light;
+}
+.mobile_menu .panel-body{
+    text-align: left;
+}
+.slider-prodcut .owl-prev {
+    right: 0px;
+}
+.slider-prodcut .owl-next {
+    right: 40px;
+}
+.head:before {
+    left: -10px;
+    border-width: 2px 0 0px 2px ;
+}
+.slider-prodcut .item .info .name,.beast-sale .box .t-box .price{
+    font-family: Montserrat-Bold;
+}
+.fashion .type{
+    float: left
+}
+.no-pading-left{
+    padding-right: 0px
+}
+.slider-tap .owl-prev {
+    right: 0px;
+}
+.slider-tap  .owl-next {
+    right: 40px;
+}
+.slider-tap .item .info{
+    text-align: left
+}
+.slider-tap .item .add > a{
+    float: left;
+    color: #ff5600;
+}
+.slider-tap .item .add > a .fa{
+    margin-left: 7px;
+    float: right;
+    margin-top: 3px;
+}
+.slider-tap .item .add .left{
+    float: right
+}
+.head{
+    font-weight: bold
+}
+.footer-bottom .payment{
+    float: right;
+}
+.beast-sale .box .t-box .small-img {
+    float: left;
+    margin-right: 25px;
+}
+.header-mobile button.btn.btn-default {
+    right: 15px;
+}
+.header-mobile .dropdown-menu{
+    right: 0px;
+    left: auto;
+}
+.slider .carousel-indicators{
+    left: 12%
+}
+.mobile_menu .panel-body .list-unstyled li a{
+    font-family: Montserrat-Light;
+}
+.modal-content h5 input[type="checkbox"]{
+    margin-right: 10px;
+    float: left;
+}
+.modal-content .face a .fa{
+    float: right;
+    border-radius: 0px 3px 3px 0px;
+}
+.modal-content .face a{
+    padding: 0 0 0 20px;
+    line-height: 40px;
+}
+.modal-content .form-control::-moz-placeholder {
+    letter-spacing: 1px
+}
+.modal-content  .form-control:-ms-input-placeholder {
+    letter-spacing: 1px
+}
+.modal-content  .form-control::-webkit-input-placeholder {
+    letter-spacing: 1px
+}
+.heading,.modal-content .btn-default{
+    font-weight: bold
+}
+.modal-content h5,.xbox .info .name{
+    font-weight: bold
+}
+.pro-healthy .info .name,.pro-healthy .info .shop{
+    font-weight: bold;
+}
+.galary ul li, .none li{
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 16px
+}
+.topic .title .fa{
+    margin-right: 10px
+}
+.result .topic ul li a:before{
+    content: '\f105';
+    font-family: 'FontAwesome';
+    margin-right: 10px;
+    font-size: 13px
+}
+.result .topic ul li a:hover{
+    margin-left: 5px
+}
+.cart .title .fa{
+    margin-right: 10px; 
+}
+.cart .title img{
+    margin-left: 35px; 
+}
+.header-top .start a {
+    padding: 17px 10px;
+}
+
+tbody th img{
+    float: left;
+}
+.table2 tbody th {
+    width: 46%;
+}
+.pricing .reaial-dis span{
+    margin-left: 10px
+}
+.shop-info .place span{
+    float: left;
+}
+.shop-info .place .form-control {
+    float: right;
+}
+.to .title {
+    top: 4px;
+    left: 89px;
+}
+.shop-info  .box .more-info{
+    font-weight: bold
+}
+.shop-info  .box h5 span{
+    margin-left: 20px
+}
+.big-topic .title span{
+    float: right;
+}
+.big-topic .space span{
+    margin-left: 15px;
+}
+.share a .fa {
+    float: right;
+}
+.share  a {
+    padding-left: 10px;
+    font-weight: bold
+}
+.share .sh-title{
+    left: 0px;
+}
+.slider-gallary .article-slide .carousel-indicators {
+    left: 20px;
+}
+.name-user >  a {
+    margin-right: 15px;
+    letter-spacing: 1px
+} 
+tbody th .name{
+    font-weight: normal;
+    font-family: Montserrat-Bold;
+    font-size: 14px;
+}

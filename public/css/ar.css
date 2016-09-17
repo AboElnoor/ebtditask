@@ -1,0 +1,163 @@
+.slider-prodcut .owl-prev {
+    left: 40px;
+}
+.slider-prodcut .owl-next {
+    left: 0px;
+}
+.header-top .fa{
+    margin-left: 5px;
+}
+.header-top .call li:last-child .fa{
+    margin: 0px 5px 0 0;
+}
+.header-bottom .shoping{
+    float: left;
+}
+.header-top .user{
+    float: right;
+}
+
+.header-top .call{
+    float: left;
+}
+.header-bottom .shoping .fa{
+    left: 40px;
+    margin-left: 10px;
+}
+.menu .navbar-default .navbar-nav > li > a{
+    border-left: 1px solid #efeaea;
+
+}
+.mega-menu .box{
+    right: 94px;
+}
+.menu_title .fa{
+    float: left;
+}
+.mega-menu .box .mega-cont{
+    right: 224px;
+}
+.mega-menu .box .mega-cont .list-inline li a:before{
+    margin-left: 10px;
+}
+.mega-menu .box > .main > li >a .fa{
+    float: left;
+}
+.mobile_menu i.glyphicon.glyphicon-plus{
+    float: left
+}
+.mobile_menu .panel-title{
+    text-align: right;
+}
+.mobile_menu .panel-body{
+    text-align: right;
+}
+.head:before {
+    right: -10px;
+    border-width: 2px 2px 0px 0px;
+}
+.fashion .type{
+    float: right
+}
+.no-pading-left{
+    padding-left: 0px
+}
+.slider-tap .owl-prev {
+    left: 40px;
+}
+.slider-tap  .owl-next {
+    left: 0px;
+}
+.slider-tap .item .add > a{
+    float: right;
+    color: #ff5600;
+}
+.slider-tap .item .add > a .fa{
+    margin-right: 10px
+}
+.slider-tap .item .add .left{
+    float: left
+}
+.footer-bottom .payment{
+    float: left;
+}
+.beast-sale .box .t-box .small-img {
+    float: right;
+    margin-left: 25px;
+}
+.header-mobile button.btn.btn-default {
+    left: 15px;
+}
+.modal-content h5 input[type="checkbox"]{
+    margin-left: 10px;
+    float: right;
+}
+.modal-content .face a .fa{
+    float: left;
+    border-radius: 3px 0 0 3px;
+}
+.modal-content .face a{
+    padding: 0 20px 0 0;
+}
+.topic .title .fa{
+    margin-left: 10px
+}
+.result .topic ul li a:before{
+    content: '\f104';
+    font-family: 'FontAwesome';
+    margin-left: 10px;
+    font-size: 13px
+}
+.result .topic ul li a:hover{
+    margin-right: 5px
+}
+.cart .title .fa{
+    margin-left: 10px; 
+}
+.cart .title img{
+    margin-right: 35px; 
+}
+
+
+tbody th img{
+    float: right;
+}
+.pricing .reaial-dis span{
+    margin-right: 10px
+}
+.shop-info .place span{
+    float: right;
+}
+.shop-info .place .form-control {
+    float: left;
+}
+.to .title {
+    top: 4px;
+    right: 89px;
+}
+.shop-info  .box h5 span{
+    margin-right: 20px
+}
+.big-topic .title span{
+    float: left;
+}
+.big-topic .space span{
+    margin-right: 15px;
+}
+.share a .fa {
+    float: left;
+}
+.share  a {
+    padding-right: 10px;
+    
+}
+.share .sh-title{
+    right: 0px;
+}
+.name-user >  a {
+    margin-left: 15px;
+} 
+
+.picZoomer-zoom-wp{
+    right: 350px !important;
+}
