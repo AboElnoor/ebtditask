@@ -15,7 +15,6 @@ class User extends Authenticatable
         'name', 'email', 'password',
     ];
 
-
     /**
      * The attributes that should be hidden for arrays.
      *
@@ -24,8 +23,9 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
-    
-    public function products(){
-        return $this->hasMany('App\Product', 'user_id');    
+
+    public function products()
+    {
+        return $this->hasMany('App\Product', 'user_id');
     }
 }
