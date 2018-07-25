@@ -20,25 +20,24 @@ Route::get('/category/{category}', 'CategoryController@single');
 Route::get('/product/{product}', 'ProductController@single');
 
 //Authorized user
-Route::group(['middleware' => ['auth']], function()
-{
-	//Create new category
-	Route::post('/category', 'CategoryController@create');
+Route::group(['middleware' => ['auth']], function () {
+    //Create new category
+    Route::post('/category', 'CategoryController@create');
 
-	//Delete category
-	Route::delete('/category/{category}', 'CategoryController@delete');
+    //Delete category
+    Route::delete('/category/{category}', 'CategoryController@delete');
 
-	//Update category
-	Route::put('/category/{category}', 'CategoryController@update');
-    
+    //Update category
+    Route::put('/category/{category}', 'CategoryController@update');
+
     //Create new product
-	Route::post('/product', 'ProductController@create');
+    Route::post('/product', 'ProductController@create');
 
-	//Delete product
-	Route::delete('/product/{product}', 'ProductController@delete');
+    //Delete product
+    Route::delete('/product/{product}', 'ProductController@delete');
 
-	//Update product
-	Route::put('/product/{product}', 'ProductController@update');
+    //Update product
+    Route::put('/product/{product}', 'ProductController@update');
 });
 
 Route::auth();
